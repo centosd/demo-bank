@@ -77,7 +77,7 @@
     <div class="flex-container-debug">
         <div class="flex-item-debug">
         Visitor #: <?php include('counter.php'); ?> <br/>
-        Node: <?php echo($_SERVER['HOSTNAME']); ?>
+        Node: <?php echo($_ENV['HOSTNAME']); ?>
         </div>
     </div>
 
